@@ -1,0 +1,121 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 6 key-value pairs.
+Below are 6 of them:
+ 1 key:                     Ava_01.jpg  label:                        ava
+ 2 key:              Chinchilla_01.jpg  label:                 chinchilla
+ 3 key:          Constellations_01.jpg  label:             constellations
+ 4 key:                     Dog_01.jpg  label:                        dog
+ 5 key:                     Dog_02.jpg  label:                        dog
+ 6 key:                  Yorkie_01.jpg  label:                     yorkie
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Ava_01.jpg: 
+Real:                        ava   Classifier:                     sweatshirt
+
+             Chinchilla_01.jpg: 
+Real:                 chinchilla   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit
+
+         Constellations_01.jpg: 
+Real:             constellations   Classifier: book jacket, dust cover, dust jacket, dust wrapper
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:          saluki, gazelle hound
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                      chihuahua
+
+                 Yorkie_01.jpg: 
+Real:                     yorkie   Classifier:                            bee
+
+# Total Images 6 # Matches: 0 # NOT Matches: 6
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Ava_01.jpg: 
+Real:                        ava   Classifier:                     sweatshirt  
+PetLabelDog: 0  ClassLabelDog: 0
+
+             Chinchilla_01.jpg: 
+Real:                 chinchilla   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit  
+PetLabelDog: 0  ClassLabelDog: 0
+
+         Constellations_01.jpg: 
+Real:             constellations   Classifier: book jacket, dust cover, dust jacket, dust wrapper  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:          saluki, gazelle hound  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                      chihuahua  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                 Yorkie_01.jpg: 
+Real:                     yorkie   Classifier:                            bee  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 6 # Matches: 0 # NOT Matches: 6
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  6  N Dog Images:  2  N NotDog Images:  4 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  6  N Dog Images:  2  N NotDog Images:  4 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+fname:  ava
+Truth:  sweatshirt
+pet image matches classifier label?  0
+Pet image is a dog?  0
+Classified as a dog?  0
+fname:  chinchilla
+Truth:  wood rabbit, cottontail, cottontail rabbit, rabbit
+pet image matches classifier label?  0
+Pet image is a dog?  0
+Classified as a dog?  0
+fname:  constellations
+Truth:  book jacket, dust cover, dust jacket, dust wrapper
+pet image matches classifier label?  0
+Pet image is a dog?  0
+Classified as a dog?  0
+fname:  dog
+Truth:  saluki, gazelle hound
+pet image matches classifier label?  0
+Pet image is a dog?  1
+Classified as a dog?  1
+fname:  dog
+Truth:  chihuahua
+pet image matches classifier label?  0
+Pet image is a dog?  1
+Classified as a dog?  1
+fname:  yorkie
+Truth:  bee
+pet image matches classifier label?  0
+Pet image is a dog?  0
+Classified as a dog?  0
+n_images: 6
+n_dogs_img: 2
+n_match: 0
+n_correct_dogs: 2
+n_correct_breed: 0
+pct_match: 0
+pct_correct_breed: 0.0
+pct_correct_notdogs: 100.0
+n_correct_notdogs: 4
+n_notdogs_img: 4
+pct_correct_dogs: 100.0
+classifier used is:  None
+incorrect dog: set()
+incorrect breed: {'Dog_01.jpg', 'Dog_02.jpg'}
+
+** Total Elapsed Runtime: 0:0:0
